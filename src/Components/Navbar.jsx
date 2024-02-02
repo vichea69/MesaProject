@@ -18,8 +18,8 @@ function Navbar() {
                     <a href="javascript:void(0)">
                         <img
                             src="src/assets/logo2.png"
-                            width={250}
-                            height={200}
+                            width={230}
+                            height={100}
                             alt="logo"
                         />
                     </a>

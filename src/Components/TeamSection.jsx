@@ -4,16 +4,16 @@ import React from 'react';
 function TeamSection() {
     const team = [
         {
-            avatar: "https://images.unsplash.com/photo-1511485977113-f34c92461ad9?ixlib=rb-1.2.1&q=80&fm=jpg&crop=faces&fit=crop&h=200&w=200&ixid=eyJhcHBfaWQiOjE3Nzg0fQ",
-            name: "Martiana dialan",
+            avatar: "https://scontent.fpnh10-1.fna.fbcdn.net/v/t39.30808-6/423132576_1520639905422826_2444126346233708452_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=efb6e6&_nc_ohc=F1OD73tclmcAX9QYN49&_nc_ht=scontent.fpnh10-1.fna&oh=00_AfD8TX_vKXjHbqbLZ1z2vrNN9SghaBZ-X6aolE4QeTRFFA&oe=65BFE86B",
+            name: "Toy ",
             title: "Product designer",
             desc: "Lorem Ipsum is simply dummy text of the printing and typesettin industry.",
             linkedin: "javascript:void(0)",
             twitter: "javascript:void(0)",
         },
         {
-            avatar: "https://api.uifaces.co/our-content/donated/xZ4wg2Xj.jpg",
-            name: "Micheal colorand",
+            avatar: "https://scontent.fpnh10-1.fna.fbcdn.net/v/t39.30808-6/318889966_1029955931740591_5002501032128532694_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=efb6e6&_nc_ohc=zKqGswL99AoAX9vTVn0&_nc_ht=scontent.fpnh10-1.fna&oh=00_AfAVfKYIDfprH5Hc-eXiAm4XtZRrtZa8ceW09Vaa2q4Gdw&oe=65BE5C50",
+            name: "Chea",
             title: "Software engineer",
             desc: "Lorem Ipsum is simply dummy text of the printing and typesettin industry.",
             linkedin: "javascript:void(0)",
@@ -28,7 +28,7 @@ function TeamSection() {
             twitter: "javascript:void(0)",
         },
         {
-            avatar: "https://randomuser.me/api/portraits/women/63.jpg",
+            avatar: "https://scontent.fpnh10-1.fna.fbcdn.net/v/t39.30808-6/392927759_1556405128429564_8657950891475487603_n.jpg?stp=cp6_dst-jpg&_nc_cat=104&ccb=1-7&_nc_sid=dd5e9f&_nc_ohc=R1372lF0XAcAX-vK-Uj&_nc_oc=AQmVOXpFnwXmD3dPldVgs9VzWUDX_pd0eMrbzfAi1vY3HzRO_oL8D6bzKJHlgnukXQM&_nc_ht=scontent.fpnh10-1.fna&oh=00_AfALo3gpPhFZ9IoyetoM5pBi-7dQ40n2Pt1pGN21ncnIlw&oe=65BF813E",
             name: "Lysa sandiago",
             title: "Head of designers",
             desc: "Lorem Ipsum is simply dummy text of the printing and typesettin industry.",

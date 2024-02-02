@@ -16,12 +16,10 @@ class Hero extends Component {
               Professional services
             </h3>
             <p className="text-gray-800 text-3xl font-semibold sm:text-4xl">
-              Build your SaaS solution with help from our experts
+              BITFORGEMINER
             </p>
             <p className="mt-3 text-gray-600">
-              Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-              Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
-              laborum, sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium
+              is the leading hash power marketplace in the world, with an extensive ecosystem of fintech services. We bring Bitcoin to millions of people worldwide. BITFORGEMINER was founded in 2023 with a clear vision: to make mining simple, friendly, and accessible to everyone.
             </p>
             <a href="javascript:void(0)"
                className="inline-flex gap-x-1 items-center text-indigo-600 hover:text-indigo-500 duration-150 font-medium">

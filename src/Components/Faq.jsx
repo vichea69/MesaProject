@@ -52,16 +52,20 @@ function Faq() {
     }
     const faqsList = [
         {
-            q: "What are some random questions to ask?",
-            a: "That's exactly the reason we created this random question generator. There are hundreds of random questions to choose from so you're able to find the perfect random question."
+            q: "What we provide?",
+            a: "Cryptocurrency mining" +
+                "\n We are a global leader in mining innovation, and since January 2023, we have been at the center of the mining world for millions of users.\n" +
+                "BitForgeMiner created the original algorithm-switching software, and provides solutions for both GPU and ASIC miners, with a focus on ease of use."
         },
         {
-            q: "Do you include common questions?",
+            q: "What is EasyMining?",
             a: "This generator doesn't include most common questions. The thought is that you can come up with common questions on your own so most of the questions in this generator."
         },
         {
-            q: "Can I use this for 21 questions?",
-            a: "Yes! there are two ways that you can use this question generator depending on what you're after. You can indicate that you want 21 questions generated."
+            q: "Why choose easyming?",
+            a: "This is exactly what BITFORGEMINER does. We provide the hash power of other miners so that you can use it to try and mine a block yourself, meaning you potentially get the whole block reward and do not have to share it with anyone!\n" +
+                "Pool Mining\n" +
+                "With pool mining, many miners group (‘pool’) together their hash power to increase the overall hash rate and have a higher chance of finding a block. When a reward is confirmed, the amount is split between all the miners, meaning lower rewards.\n"
         },
         {
             q: "Are these questions for girls or for boys?",
