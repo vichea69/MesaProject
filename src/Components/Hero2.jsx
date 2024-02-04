@@ -26,7 +26,7 @@ function Hero2() {
                 </div>
                 <div className="flex-none mt-14 md:mt-0 md:max-w-xl">
                     <img
-                        src="/src/assets/data.svg"
+                        src="Images/data.svg"
                         className=" md:rounded-tl-[108px]"
                         alt="test"
                     />

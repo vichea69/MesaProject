@@ -4,14 +4,15 @@ import React from 'react';
 function TeamSection() {
     const team = [
         {
-            avatar: "/src/assets/vichea.jpg",
+            avatar: "/Images/vichea.jpg",
+            name: "Vichea",
             title: "Product designer",
             desc: "Lorem Ipsum is simply dummy text of the printing and typesettin industry.",
             linkedin: "javascript:void(0)",
             twitter: "javascript:void(0)",
         },
         {
-            avatar: "/src/assets/vichea.jpg",
+            avatar: "/Images/vichea.jpg",
             name: "Chea",
             title: "Software engineer",
             desc: "Lorem Ipsum is simply dummy text of the printing and typesettin industry.",

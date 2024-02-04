@@ -9,7 +9,7 @@ function Navbar() {
         { title: "HOME ", path: "javascript:void(0)" },
         { title: "ABOUT US", path: "javascript:void(0)" },
         { title: "EASY MINING", path: "javascript:void(0)" },
-        { title: "CONTACT US", path: "javascript:void(0)" }
+        { title: "CONTACT US", path: "https://t.me/Asha888" }
     ]
     return (
         <nav className="bg-white w-full border-b md:border-0 md:static">
@@ -17,7 +17,7 @@ function Navbar() {
                 <div className="flex items-center justify-between py-3 md:py-5 md:block">
                     <a href="javascript:void(0)">
                         <img
-                            src="src/assets/logo2.png"
+                            src="Images/logo2.png"
                             width={230}
                             height={100}
                             alt="logo"

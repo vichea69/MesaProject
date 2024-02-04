@@ -8,7 +8,7 @@ class Hero extends Component {
         <div className="items-center gap-x-12 sm:px-4 md:px-0 lg:flex">
           <div className="flex-1 sm:hidden lg:block">
             <img
-                src="src/assets/stock-market-analysis.svg"
+                src="Images/stock-market-analysis.svg"
                 className="md:max-w-lg sm:rounded-lg" alt=""/>
           </div>
           <div className="max-w-xl px-4 space-y-3 mt-6 sm:px-0 md:mt-0 lg:max-w-2xl">

@@ -1,7 +1,9 @@
 // eslint-disable-next-line no-unused-vars
 import React from 'react';
 
+
 function Price() {
+   
     const plans = [
         {
             name: "Bronze Package",
@@ -53,6 +55,11 @@ function Price() {
             ],
         },
     ];
+    const handleGetStartedClick = () => {
+        // Replace "https://t.me/your_telegram_username" with your actual Telegram link
+        const telegramLink = "https://t.me/Asha888";
+        window.location.href = telegramLink;
+    };
     return (
         <section className='py-14'>
             <div className="max-w-screen-xl mx-auto px-4 text-gray-600 md:px-8">
@@ -61,9 +68,9 @@ function Price() {
                         Pricing for all sizes
                     </h3>
                     <div className='mt-3 max-w-xl'>
-                        <p>
+                        {/* <p>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam efficitur consequat nunc.
-                        </p>
+                        </p> */}
                     </div>
                 </div>
                 <div
@@ -101,6 +108,7 @@ function Price() {
                                 </ul>
                                 <div className="flex-1 flex items-end">
                                     <button
+                                        onClick={handleGetStartedClick }
                                         className='px-3 py-3 rounded-lg w-full font-semibold text-sm duration-150 text-white bg-indigo-600 hover:bg-indigo-500 active:bg-indigo-700'>
                                         Get Started
                                     </button>

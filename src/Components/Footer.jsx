@@ -74,7 +74,7 @@ class Footer extends Component {
           <div className="gap-6 justify-between md:flex">
             <div className="flex-1">
               <div className="max-w-xs">
-                <img src="src/assets/logo1.png" className="w-50 h-20"
+                <img src="Images/logo1.png" className="w-50 h-20"
                 />
                 <p className="leading-relaxed mt-2 text-[15px]">
                   Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
