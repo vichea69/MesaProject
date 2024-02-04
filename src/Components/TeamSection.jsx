@@ -4,15 +4,14 @@ import React from 'react';
 function TeamSection() {
     const team = [
         {
-            avatar: "https://scontent.fpnh10-1.fna.fbcdn.net/v/t39.30808-6/423132576_1520639905422826_2444126346233708452_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=efb6e6&_nc_ohc=F1OD73tclmcAX9QYN49&_nc_ht=scontent.fpnh10-1.fna&oh=00_AfD8TX_vKXjHbqbLZ1z2vrNN9SghaBZ-X6aolE4QeTRFFA&oe=65BFE86B",
-            name: "Toy ",
+            avatar: "/src/assets/vichea.jpg",
             title: "Product designer",
             desc: "Lorem Ipsum is simply dummy text of the printing and typesettin industry.",
             linkedin: "javascript:void(0)",
             twitter: "javascript:void(0)",
         },
         {
-            avatar: "https://scontent.fpnh10-1.fna.fbcdn.net/v/t39.30808-6/318889966_1029955931740591_5002501032128532694_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=efb6e6&_nc_ohc=zKqGswL99AoAX9vTVn0&_nc_ht=scontent.fpnh10-1.fna&oh=00_AfAVfKYIDfprH5Hc-eXiAm4XtZRrtZa8ceW09Vaa2q4Gdw&oe=65BE5C50",
+            avatar: "/src/assets/vichea.jpg",
             name: "Chea",
             title: "Software engineer",
             desc: "Lorem Ipsum is simply dummy text of the printing and typesettin industry.",
