@@ -9,15 +9,6 @@ import {TypewriterEffectSmooth} from "./ui/typewriter-effect.tsx";
       text: "Welcome to",
       className: "text-black dark:text-black",
     },
-    // {
-    //   text: "to",
-    // },
-    // {
-    //   text: "apps",
-    // },
-    // {
-    //   text: "with",
-    // },
     {
       text: "BITFORGEMINER.",
       className: "text-blue-500 dark:text-yellow-500 ",

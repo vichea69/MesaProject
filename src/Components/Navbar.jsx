@@ -9,7 +9,7 @@ function Navbar() {
         { title: "HOME ", path: "javascript:void(0)" },
         { title: "ABOUT US", path: "javascript:void(0)" },
         { title: "EASY MINING", path: "javascript:void(0)" },
-        { title: "CONTACT US", path: "https://t.me/Asha888" }
+        { title: "CONTACT US", path: "https://t.me/BitForgeMiner_Support" }
     ]
     return (
         <nav className="bg-white w-full border-b md:border-0 md:static">

@@ -1,6 +1,17 @@
 // eslint-disable-next-line no-unused-vars
 import React from 'react';
+import {TypewriterEffectSmooth} from "./ui/typewriter-effect.tsx";
 function FeatureHero() {
+    const words = [
+        {
+          text: "Welcome to",
+          className: "text-black dark:text-black",
+        },
+        {
+          text: "BITFORGEMINER.",
+          className: "text-blue-500 dark:text-yellow-500 ",
+        },
+      ];
     const features = [
         {
             icon:
@@ -61,7 +72,7 @@ function FeatureHero() {
                 <div className="relative max-w-2xl mx-auto sm:text-center">
                     <div className="relative z-10">
                         <h3 className="text-gray-800 text-3xl font-semibold sm:text-4xl">
-                           WHY YOU CHOOSE US
+                           WHY YOU CHOOSE US 
                         </h3>
                         {/* <p className="mt-3">
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec congue, nisl eget molestie

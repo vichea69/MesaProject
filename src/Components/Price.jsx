@@ -3,12 +3,17 @@ import React from 'react';
 
 
 function Price() {
-   
+    const backgroundColors = {
+        "Bronze Package": "bg-stone-400",
+        "Silver Package": "bg-zinc-200",
+        "Gold Package": "bg-amber-300",
+        "Diamond Package": "bg-cyan-300",
+    };
+
     const plans = [
+        
         {
             name: "Bronze Package",
-
-            price: 12,
             features: [
                 "Period : 3 days",
                 "Dialy income rate : 5%",
@@ -21,7 +26,6 @@ function Price() {
         },
         {
             name: "Silver Package",
-            price: 35,
             features: [
                 "Period : 7 days",
                 "Dialy income rate : 12%",
@@ -33,7 +37,6 @@ function Price() {
         },
         {
             name: "Gold Package",
-            price: 60,
             features: [
                 "Period : 15 days",
                 "Dialy income rate : 20%",
@@ -45,7 +48,6 @@ function Price() {
         },
         {
             name: "Diamond Package",
-            price: 60,
             features: [
                 "Period : 30 days",
                 "Dialy income rate : 35%",
@@ -58,9 +60,10 @@ function Price() {
     ];
     const handleGetStartedClick = () => {
         // Replace "https://t.me/your_telegram_username" with your actual Telegram link
-        const telegramLink = "https://t.me/Asha888";
+        const telegramLink = "https://t.me/BitForgeMiner_Support";
         window.location.href = telegramLink;
     };
+
     return (
         <section className='py-14'>
             <div className="max-w-screen-xl mx-auto px-4 text-gray-600 md:px-8">
@@ -68,55 +71,45 @@ function Price() {
                     <h3 className='text-gray-800 text-3xl font-semibold sm:text-4xl'>
                         EASYMING PACKAGE
                     </h3>
-                    <div className='mt-3 max-w-xl'>
-                        {/* <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam efficitur consequat nunc.
-                        </p> */}
-                    </div>
+                    <div className='mt-3 max-w-xl'></div>
                 </div>
                 <div
                     className='mt-16 space-y-6 justify-center gap-6 sm:grid sm:grid-cols-2 sm:space-y-0 lg:grid-cols-4'>
-                    {
-                        plans.map((item, idx) => (
-                            <div key={idx}
-                                 className='relative flex-1 flex items-stretch flex-col p-8 rounded-xl border-2'>
-                                <div>
-                                    <span className='text-indigo-600 font-medium text-2xl'>
-                                        {item.name}
-                                    </span>
-                                    {/* <div className='mt-4 text-gray-800 text-3xl font-semibold'>
-                                        {item.name} <span className="text-xl text-gray-600 font-normal"></span>
-                                    </div> */}
-                                </div>
-                                <ul className='py-8 space-y-3'>
-                                    {
-                                        item.features.map((featureItem, idx) => (
-                                            <li key={idx} className='flex items-center gap-5'>
-                                                <svg
-                                                    xmlns='http://www.w3.org/2000/svg'
-                                                    className='h-5 w-5 text-indigo-600'
-                                                    viewBox='0 0 20 20'
-                                                    fill='currentColor'>
-                                                    <path
-                                                        fill-rule='evenodd'
-                                                        d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z'
-                                                        clip-rule='evenodd'></path>
-                                                </svg>
-                                                {featureItem}
-                                            </li>
-                                        ))
-                                    }
-                                </ul>
-                                <div className="flex-1 flex items-end">
-                                    <button
-                                        onClick={handleGetStartedClick }
-                                        className='px-3 py-3 rounded-lg w-full font-semibold text-sm duration-150 text-white bg-indigo-600 hover:bg-indigo-500 active:bg-indigo-700'>
-                                        Get Started
-                                    </button>
-                                </div>
+                    {plans.map((item, idx) => (
+                        <div
+                            key={idx}
+                            className={`relative flex-1 flex items-stretch flex-col p-8 rounded-xl border-2 ${backgroundColors[item.name]} text-black`}>
+                            <div>
+                                <span className={`font-medium text-2xl`}>
+                                    {item.name}
+                                </span>
                             </div>
-                        ))
-                    }
+                            <ul className='py-8 space-y-3'>
+                                {item.features.map((featureItem, idx) => (
+                                    <li key={idx} className='flex items-center gap-5'>
+                                        <svg
+                                            xmlns='http://www.w3.org/2000/svg'
+                                            className='h-5 w-5 text-indigo-600'
+                                            viewBox='0 0 20 20'
+                                            fill='currentColor'>
+                                            <path
+                                                fill-rule='evenodd'
+                                                d='M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z'
+                                                clip-rule='evenodd'></path>
+                                        </svg>
+                                        {featureItem}
+                                    </li>
+                                ))}
+                            </ul>
+                            <div className="flex-1 flex items-end">
+                                <button
+                                    onClick={handleGetStartedClick}
+                                    className={`px-3 py-3 rounded-lg w-full font-semibold text-sm duration-150 bg-indigo-600 text-white hover:bg-indigo-800 active:bg-gray-500`}>
+                                    Get Started
+                                </button>
+                            </div>
+                        </div>
+                    ))}
                 </div>
             </div>
         </section>
