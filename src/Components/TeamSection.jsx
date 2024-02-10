@@ -4,52 +4,52 @@ import React from 'react';
 function TeamSection() {
     const team = [
         {
-            avatar: "/Images/vichea.jpg",
-            name: "Vichea",
+            avatar: "https://images.unsplash.com/photo-1511485977113-f34c92461ad9?ixlib=rb-1.2.1&q=80&fm=jpg&crop=faces&fit=crop&h=200&w=200&ixid=eyJhcHBfaWQiOjE3Nzg0fQ",
+            name: "Martiana dialan",
             title: "Product designer",
-            desc: "Lorem Ipsum is simply dummy text of the printing and typesettin industry.",
-            linkedin: "javascript:void(0)",
-            twitter: "javascript:void(0)",
+            //desc: "Lorem Ipsum is simply dummy text of the printing and typesettin industry.",
+            // linkedin: "javascript:void(0)",
+            // twitter: "javascript:void(0)",
         },
         {
-            avatar: "/Images/vichea.jpg",
-            name: "Chea",
+            avatar: "https://api.uifaces.co/our-content/donated/xZ4wg2Xj.jpg",
+            name: "Micheal colorand",
             title: "Software engineer",
-            desc: "Lorem Ipsum is simply dummy text of the printing and typesettin industry.",
-            linkedin: "javascript:void(0)",
-            twitter: "javascript:void(0)",
+            //desc: "Lorem Ipsum is simply dummy text of the printing and typesettin industry.",
+            // linkedin: "javascript:void(0)",
+            // twitter: "javascript:void(0)",
         },
         {
             avatar: "https://randomuser.me/api/portraits/women/79.jpg",
             name: "Brown Luis",
             title: "Full stack engineer",
-            desc: "Lorem Ipsum is simply dummy text of the printing and typesettin industry.",
-            linkedin: "javascript:void(0)",
-            twitter: "javascript:void(0)",
+            //desc: "Lorem Ipsum is simply dummy text of the printing and typesettin industry.",
+            // linkedin: "javascript:void(0)",
+            // twitter: "javascript:void(0)",
         },
         {
-            avatar: "https://scontent.fpnh10-1.fna.fbcdn.net/v/t39.30808-6/392927759_1556405128429564_8657950891475487603_n.jpg?stp=cp6_dst-jpg&_nc_cat=104&ccb=1-7&_nc_sid=dd5e9f&_nc_ohc=R1372lF0XAcAX-vK-Uj&_nc_oc=AQmVOXpFnwXmD3dPldVgs9VzWUDX_pd0eMrbzfAi1vY3HzRO_oL8D6bzKJHlgnukXQM&_nc_ht=scontent.fpnh10-1.fna&oh=00_AfALo3gpPhFZ9IoyetoM5pBi-7dQ40n2Pt1pGN21ncnIlw&oe=65BF813E",
+            avatar: "https://randomuser.me/api/portraits/women/63.jpg",
             name: "Lysa sandiago",
             title: "Head of designers",
-            desc: "Lorem Ipsum is simply dummy text of the printing and typesettin industry.",
-            linkedin: "javascript:void(0)",
-            twitter: "javascript:void(0)",
+           // desc: "Lorem Ipsum is simply dummy text of the printing and typesettin industry.",
+            // linkedin: "javascript:void(0)",
+            // twitter: "javascript:void(0)",
         },
         {
             avatar: "https://randomuser.me/api/portraits/men/86.jpg",
             name: "Daniel martin",
             title: "Product designer",
-            desc: "Lorem Ipsum is simply dummy text of the printing and typesettin industry.",
-            linkedin: "javascript:void(0)",
-            twitter: "javascript:void(0)",
+           // desc: "Lorem Ipsum is simply dummy text of the printing and typesettin industry.",
+            // linkedin: "javascript:void(0)",
+            // twitter: "javascript:void(0)",
         },
         {
             avatar: "https://randomuser.me/api/portraits/men/46.jpg",
             name: "Vicky tanson",
             title: "Product manager",
-            desc: "Lorem Ipsum is simply dummy text of the printing and typesettin industry.",
-            linkedin: "javascript:void(0)",
-            twitter: "javascript:void(0)",
+            // desc: "Lorem Ipsum is simply dummy text of the printing and typesettin industry.",
+            // linkedin: "javascript:void(0)",
+            // twitter: "javascript:void(0)",
         },
     ]
     return (
@@ -59,10 +59,10 @@ function TeamSection() {
                     <h3 className="text-gray-800 text-3xl font-semibold sm:text-4xl">
                         Management team
                     </h3>
-                    <p className="text-gray-600 mt-3">
+                    {/* <p className="text-gray-600 mt-3">
                         Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been
                         the industry's standard dummy.
-                    </p>
+                    </p> */}
                 </div>
                 <div className="mt-12">
                     <ul className="grid gap-8 sm:grid-cols-2 md:grid-cols-3">
@@ -81,7 +81,7 @@ function TeamSection() {
                                         <p className="text-indigo-600">{item.title}</p>
                                         <p className="text-gray-600 mt-2">{item.desc}</p>
                                         <div className="mt-4 flex justify-center gap-4 text-gray-400">
-                                            <a href={item.twitter}>
+                                            {/* <a href={item.twitter}>
                                                 <svg className="w-5 h-5 duration-150 hover:text-gray-500"
                                                      fill="currentColor" viewBox="0 0 48 48">
                                                     <g clip-path="url(#clip0_17_80)">
@@ -94,8 +94,8 @@ function TeamSection() {
                                                         </clipPath>
                                                     </defs>
                                                 </svg>
-                                            </a>
-                                            <a href={item.linkedin}>
+                                            </a> */}
+                                            {/* <a href={item.linkedin}>
                                                 <svg className="w-5 h-5 duration-150 hover:text-gray-500" fill="none"
                                                      viewBox="0 0 48 48">
                                                     <g clip-path="url(#clip0_17_68)">
@@ -108,7 +108,7 @@ function TeamSection() {
                                                         </clipPath>
                                                     </defs>
                                                 </svg>
-                                            </a>
+                                            </a> */}
                                         </div>
                                     </div>
                                 </li>
