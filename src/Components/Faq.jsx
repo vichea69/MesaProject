@@ -59,7 +59,7 @@ function Faq() {
         },
         {
             q: "What is EasyMining?",
-            a: "This generator doesn't include most common questions. The thought is that you can come up with common questions on your own so most of the questions in this generator."
+            a:"EasyMining is the ‘original’ concept of mining. You validate blocks of cryptocurrency transactions with your computing power and get a reward for your ‘work’. But mining has evolved so much that now very large ‘pools’ (groups of computing power) make it much harder for an easy miner to find a block on their own since you are competing against much larger operations, and they split the rewards among all their miners.",
         },
         {
             q: "Why choose easyming?",

@@ -77,7 +77,7 @@ class Footer extends Component {
                 <img src="Images/logo1.png" className="w-50 h-20"
                 />
                 <p className="leading-relaxed mt-2 text-[15px]">
-                  Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+                Join us to grow your finances and have a better tomorrow together!
                 </p>
               </div>
               <form

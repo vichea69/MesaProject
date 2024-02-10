@@ -1,5 +1,29 @@
 // eslint-disable-next-line no-unused-vars
+"use client";
+// eslint-disable-next-line no-unused-vars
 import React, { Component } from "react";
+import {TypewriterEffectSmooth} from "./ui/typewriter-effect.tsx";
+
+  const words = [
+    {
+      text: "Welcome to",
+      className: "text-black dark:text-black",
+    },
+    // {
+    //   text: "to",
+    // },
+    // {
+    //   text: "apps",
+    // },
+    // {
+    //   text: "with",
+    // },
+    {
+      text: "BITFORGEMINER.",
+      className: "text-blue-500 dark:text-yellow-500 ",
+    },
+  ];
+
 
 class Hero extends Component {
   render() {
@@ -15,9 +39,10 @@ class Hero extends Component {
             <h3 className="text-indigo-600 font-semibold">
               Professional services
             </h3>
-            <p className="text-gray-800 text-3xl font-semibold sm:text-4xl">
-              BITFORGEMINER
-            </p>
+            {/*<p className="text-gray-800 text-3xl font-semibold sm:text-4xl">*/}
+            {/*  BITFORGEMINER*/}
+            {/*</p>*/}
+            <TypewriterEffectSmooth words={words} />
             <p className="mt-3 text-gray-600">
               is the leading hash power marketplace in the world, with an extensive ecosystem of fintech services. We bring Bitcoin to millions of people worldwide. BITFORGEMINER was founded in 2023 with a clear vision: to make mining simple, friendly, and accessible to everyone.
             </p>
