@@ -17,7 +17,7 @@ function Navbar() {
                 <div className="flex items-center justify-between py-3 md:py-5 md:block">
                     <a href="javascript:void(0)">
                         <img
-                            src="Images/logo2.png"
+                            src="Images/logo2-removebg.png"
                             width={230}
                             height={100}
                             alt="logo"
