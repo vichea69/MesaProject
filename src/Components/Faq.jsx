@@ -67,14 +67,7 @@ function Faq() {
                 "Pool Mining\n" +
                 "With pool mining, many miners group (‘pool’) together their hash power to increase the overall hash rate and have a higher chance of finding a block. When a reward is confirmed, the amount is split between all the miners, meaning lower rewards.\n"
         },
-        {
-            q: "Are these questions for girls or for boys?",
-            a: "The questions in this generator are gender neutral and can be used to ask either male of females (or any other gender the person identifies with)."
-        },
-        {
-            q: "What do you wish you had more talent doing?",
-            a: "If you've been searching for a way to get random questions, you've landed on the correct webpage. We created the Random Question Generator to ask you as many random questions as your heart desires."
-        }
+        
     ]
     return (
         <section className="leading-relaxed max-w-screen-xl mt-12 mx-auto px-4 md:px-8">

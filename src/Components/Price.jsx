@@ -7,6 +7,7 @@ function Price() {
     const plans = [
         {
             name: "Bronze Package",
+
             price: 12,
             features: [
                 "Period : 3 days",
@@ -65,7 +66,7 @@ function Price() {
             <div className="max-w-screen-xl mx-auto px-4 text-gray-600 md:px-8">
                 <div className='relative max-w-xl mx-auto sm:text-center'>
                     <h3 className='text-gray-800 text-3xl font-semibold sm:text-4xl'>
-                        Pricing for all sizes
+                        EASYMING PACKAGE
                     </h3>
                     <div className='mt-3 max-w-xl'>
                         {/* <p>
@@ -80,12 +81,12 @@ function Price() {
                             <div key={idx}
                                  className='relative flex-1 flex items-stretch flex-col p-8 rounded-xl border-2'>
                                 <div>
-                                    <span className='text-indigo-600 font-medium'>
+                                    <span className='text-indigo-600 font-medium text-2xl'>
                                         {item.name}
                                     </span>
-                                    <div className='mt-4 text-gray-800 text-3xl font-semibold'>
-                                        ${item.price} <span className="text-xl text-gray-600 font-normal">/mo</span>
-                                    </div>
+                                    {/* <div className='mt-4 text-gray-800 text-3xl font-semibold'>
+                                        {item.name} <span className="text-xl text-gray-600 font-normal"></span>
+                                    </div> */}
                                 </div>
                                 <ul className='py-8 space-y-3'>
                                     {
