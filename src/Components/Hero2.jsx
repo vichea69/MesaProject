@@ -13,12 +13,12 @@ function Hero2() {
                     <h2 className=" text-lg">
                         We help startups to grow and make money
                     </h2>
-                    <p className='text-black text-xl font-medium'>
+                    <p className='text-black'>
                         Simply purchase a package on our mining marketplace, sit back, and wait for the mining round to
                         finish. If you’re lucky, you will mine a reward of up to 6.25 Bitcoins!
 
                     </p>
-                    <p className='text-black text-xl font-medium'>
+                    <p className='text-black'>
                         Buy an EasyMining Package
                         How to give it a try? Simply purchase a package from your EasyMining Package(Contact BITFORGEMINER Support), sit back, and wait for the mining round to finish.
 
