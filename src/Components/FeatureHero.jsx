@@ -1,17 +1,6 @@
 // eslint-disable-next-line no-unused-vars
 import React from 'react';
-import {TypewriterEffectSmooth} from "./ui/typewriter-effect.tsx";
 function FeatureHero() {
-    const words = [
-        {
-          text: "Welcome to",
-          className: "text-black dark:text-black",
-        },
-        {
-          text: "BITFORGEMINER.",
-          className: "text-blue-500 dark:text-yellow-500 ",
-        },
-      ];
     const features = [
         {
             icon:
