@@ -10,12 +10,10 @@ import {TypewriterEffectSmooth} from "./ui/typewriter-effect.tsx";
       className: "text-black dark:text-black",
     },
     {
-      text: "BITFORGEMINER.",
+      text: "BITFORGEMINER",
       className: "text-blue-500 dark:text-yellow-500 ",
     },
   ];
-
-
 class Hero extends Component {
   render() {
     return <section className="py-14">
