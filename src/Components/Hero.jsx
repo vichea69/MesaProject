@@ -11,7 +11,7 @@ import {TypewriterEffectSmooth} from "./ui/typewriter-effect.tsx";
     },
     {
       text: "BITFORGEMINER",
-      className: "text-blue-500 dark:text-yellow-500 ",
+      className: "text-yellow-500  dark:text-yellow-500 ",
     },
   ];
 class Hero extends Component {
