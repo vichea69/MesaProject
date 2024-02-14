@@ -16,7 +16,7 @@ function Price() {
             name: "Bronze Package",
             features: [
                 "Period : 3 days",
-                "Dialy income rate : 5%",
+                "Daily income rate : 5%",
                 "Total income rate : 15%",
                 "Capital USD: 100 - 2000",
                 "Referral bonus : 5%",
@@ -28,7 +28,7 @@ function Price() {
             name: "Silver Package",
             features: [
                 "Period : 7 days",
-                "Dialy income rate : 12%",
+                "Daily income rate : 12%",
                 "Total income rate : 84%",
                 "Capital USD: 2000 - 10000",
                 "Referral bonus : 5%",
@@ -39,7 +39,7 @@ function Price() {
             name: "Gold Package",
             features: [
                 "Period : 15 days",
-                "Dialy income rate : 20%",
+                "Daily income rate : 20%",
                 "Total income rate : 300%",
                 "Capital USD: 10000 - 50000",
                 "Referral bonus : 10%",
@@ -50,7 +50,7 @@ function Price() {
             name: "Diamond Package",
             features: [
                 "Period : 30 days",
-                "Dialy income rate : 35%",
+                "Daly income rate : 35%",
                 "Total income rate : 1050%",
                 "Capital USD: 50000 - 1M",
                 "Referral bonus : 20%",
