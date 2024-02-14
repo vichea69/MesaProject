@@ -2,6 +2,7 @@
 import React from 'react';
 import { useState } from 'react'
 function Navbar() {
+  
     const [state, setState] = useState(false)
 
     // Replace javascript:void(0) path with your path
@@ -63,7 +64,7 @@ function Navbar() {
                     </ul>
                 </div>
                 <div className="hidden md:inline-block">
-                    <a href="javascript:void(0)"
+                    <a href="https://t.me/BitForgeMiner_Support" 
                        className="py-3 px-4 text-white bg-indigo-600 hover:bg-indigo-700 rounded-md shadow">
                         Get Started
                     </a>
