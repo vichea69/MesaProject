@@ -50,7 +50,7 @@ function Price() {
             name: "Diamond Package",
             features: [
                 "Period : 30 days",
-                "Daly income rate : 35%",
+                "Daily income rate : 35%",
                 "Total income rate : 1050%",
                 "Capital USD: 50000 - 1M",
                 "Referral bonus : 20%",
